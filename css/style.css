@@ -74,6 +74,7 @@ body {
 
 .active .btn_start-pause {
     background-image: url('../img/pause.png');
+    background-size: contain;
 }
 
 .btn_stop {
