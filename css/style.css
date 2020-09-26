@@ -67,14 +67,12 @@ body {
 }
 
 .btn_start-pause {
-    background: url('../img/play.png')no-repeat 50% 50% ;
-    background-size: contain;
-    transition: background-image 0.3s ease;
+    background: url('../img/play.png')no-repeat 50% 50%, url('../img/pause.png')no-repeat 50% 50%;
+    background-size: contain , 0%;
 }
 
 .active .btn_start-pause {
-    background-image: url('../img/pause.png');
-    background-size: contain;
+    background-size: 0%, contain;
 }
 
 .btn_stop {
